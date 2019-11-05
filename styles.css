@@ -1,0 +1,29 @@
+
+* {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0px auto;
+    background: #ECDBC9;
+  }
+
+  .header {
+    display: block;
+    align-items: centre;
+    text-align: centre;
+    font-family: 'Gotham', sans-serif;
+    font-size: 50px;
+    color: #596A5F;
+    margin: 1rem auto;
+    max-width: 100%;
+  }
+  
+  .footer {
+      display:inline-block;
+      width: 200px;
+      height: 100px;
+      font-family: 'MADE Kenfolg';
+      font-size: 15px;
+      color: #D65C56;
+      
+      
+  }

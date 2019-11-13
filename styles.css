@@ -1,29 +1,210 @@
-
 * {
-    box-sizing: border-box;
-    margin: 20px;
-    padding: 0px auto;
-    background: #ECDBC9;
-  }
-
-  .header {
-    display: block;
-    align-items: centre;
-    text-align: centre;
-    font-family: 'Gotham', sans-serif;
-    font-size: 50px;
-    color: #596A5F;
-    margin: 1rem auto;
-    max-width: 100%;
-  }
+  box-sizing: border-box;
+  background-color: #ecdbc9;
+}
   
-  .footer {
-      display:inline-block;
-      width: 200px;
-      height: 100px;
-      font-family: 'MADE Kenfolg';
-      font-size: 15px;
-      color: #D65C56;
-      
-      
-  }
+body {
+  margin: 10px;
+}
+
+.header h1 {
+  padding-top: 30px ; 
+  margin: 0px;   
+  text-align: center;
+  font-family: Helvetica Neue LT Std;
+  font-size: 7vw;
+  color: #596a5f;
+}
+
+.header h2 {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 50px;
+  font-family: MADE Kenfolg;
+  font-size: 1.5vw;
+  color: #596a5f;
+}
+  
+.topnav {
+  overflow: hidden;
+  text-align: center;    
+}
+  
+.topnav a {
+  display: inline-block;
+  color: #d65c56;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: MADE Kenfolg;
+  font-size: 1vw;
+}
+  
+.topnav a:hover {
+  color: #596a5f;
+}
+
+.photo h2 {
+  position: -webkit-sticky;
+  overflow: hidden;
+  /* overflow: hidden; */
+  top: 100%;
+  left: 100%;
+  transform: translate(0%, 20%);
+  font-family: Helvetica Neue LT Std;
+  font-size: 13.4vw;
+  color: #E3D0BD;
+  background-color: transparent;
+  margin-bottom: 0px;
+}
+
+.photo {
+  padding: 0px;
+  padding-left: 200px;
+}
+
+.photo img {
+  transform: translate(0%, -40%);
+  height: 45vw;
+  
+}
+
+.start {
+  background: transparent;
+  position: sticky;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.start a {
+  background: transparent;
+  font-family: Helvetica Neue LT Std;
+  /* overflow: hidden; */
+  font-size: 3vw;
+  color: #798698;
+}
+
+.start a:hover {
+  color: #d65c56;
+}
+
+.smallabout {
+  margin: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+}
+
+.smallabout h2 {
+  font-family: Helvetica Neue LT Std;
+  color: #d65c56;
+  font-size: 3vw;
+}
+
+.smallabout p {
+  font-family: MADE Kenfolg;
+  color: #d65c56;
+  font-size: 1.5vw;
+}
+
+.video-container {
+  width: 100%;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  height: 40vw;
+  width: 100vw;
+  padding: 20px;
+}
+
+.video-container p {
+  font-family: MADE Kenfolg;
+  color: #d65c56;
+}
+
+.video-container p a {
+  font-family: MADE Kenfolg;
+  color: #d65c56;
+}
+
+.aboutusheading {
+  text-align: center;
+  font-family: Helvetica Neue LT Std;
+  color: #798698;
+  font-size: 2vw;
+  padding-bottom: 5px;
+}
+
+.aboutusheading h2 {
+  margin: 0px;
+  padding-top: 50px;
+}
+
+.aboutus {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: MADE Kenfolg;
+  color: black;
+  text-align: center;
+  font-size: 1.25vw;
+}
+
+.aboutusphoto {
+  text-align: center;
+}
+
+.aboutusphoto img {
+  height: 50vw;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px;
+}
+
+.footer a {
+  font-family: MADE Kenfolg;
+  font-size: 1vw;
+  color: #d65c56;
+  display: inline-block;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: center;
+}
+
+.footer a:hover {
+  color: #596a5f;
+}
+
+.thanks {
+  text-align: center;
+  padding: 100px;
+  padding-bottom: 0px;
+}
+
+.thanks h1 {
+  font-family: Helvetica Neue LT Std;
+  color: #798698;
+  font-size: 5vw;
+}
+
+.streamnow {
+  text-align: center;
+  padding: 100px;
+  padding-top: 0px;
+}
+
+.streamnow a {
+  font-family: Helvetica Neue LT Std;
+  color: #798698;
+  font-size: 2vw;
+}
+
+.streamnow a:hover {
+  color: #d65c56
+}

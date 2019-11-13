@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>FEEDBANDS</h1>
+      <h2>PLANT TREES WHILE YOU STREAM</h2>
+    </div>      
+    <div class="topnav">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="stream.html">STREAM</a>
+      <a href="signup.html">SIGN UP</a>
+    </div>
+    <div class = "checkout">
+      <h2>SIGN UP</h2>
+    </div>
+    <form name="myForm"
+      action = "signup2.html"
+      onsubmit="return validateForm()"
+      method="POST">         
+      <div class="row">
+        <div class="col-75">
+          <div class="container">      
+            <div class="row">
+              <div class="col-50">
+                <h3>Account Details</h3>
+                <label for="username"><i class="fa fa-user"></i> Username</label>
+                <input type="text" id="username" name="username" placeholder="JohnSmith123">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="john@gmail.com">
+                <label for="userPassword"><i class="pass"></i> Password</label>
+                <input type="password" id="userPassword" name="userPassword" placeholder="">
+                <label for="userPasswordConfirm"><i class="pass"></i> Confirm Password</label>
+                <input type="password" id="userPasswordConfirm" name="userPasswordConfirm" placeholder="">
+              </div>
+            </div>
+          </div>
+          <input type="submit" value="Proceed to payment" class="btn">
+          <a href="signup2.html"></a>
+        </div>
+      </div>
+    </form>
+    <div class = "footer">
+      <a href="#">TERMS AND CONDITIONS</a>
+      <a href="#">FAQS</a>
+      <a href="#">OUR PROGRESS</a>
+      <a href="#">SUBSCRIBE</a>
+    </div> 
+    <script src="scripts.js"></script>
+  </body>
+</html>
